@@ -132,5 +132,10 @@ TOTAL                  485     13    97
 Tanmateix, també hem previst l'opció de veure el compliment dels estàndards d'estil PEP8 pels nostres fitxers. Per fer-ho cal executar la següent comanda:
 
 ```bash
-coverage report
+pylint src/*.py
+```
+o 
+
+```bash
+pylint tests/*.py
 ```
