@@ -9,14 +9,14 @@ Concretament, el projecte tracta i analitza dades sobre l'Orbea Monegros, una pr
 ## Instal·lació i posada en funcionament
 Passos per instal·lar el projecte:
 
-1. Clona el repositori a la teva màquina local (en cas que l'hagis descarregat, saltat aquest pas)
+1. Clona el repositori a la teva màquina local (en cas que l'hagis descarregat, saltat aquest pas). Per descomprimir-lo usa la comanda unzip i el nom del fitxer al terminal (si bé hi ha moltes altres formes).
 
 ```bash
 git clone https://github.com/trepi93/dtrepat_PAC4
 ```
 
 
-2. Navega fins al directori on s'ha descarregat el projecte (si l'has descarregat (sense usar git clone) descomprimeix-lo usant unzip)
+2. Navega fins al directori on s'ha descarregat o descomprimit el projecte 
 ```bash
 cd dtrepat_PAC4
 ```
