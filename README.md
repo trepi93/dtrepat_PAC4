@@ -128,4 +128,9 @@ tests/test_main.py      27      1    96%
 TOTAL                  485     13    97
 ```
 
+## Estil de codi
+Tanmateix, també hem previst l'opció de veure el compliment dels estàndards d'estil PEP8 pels nostres fitxers. Per fer-ho cal executar la següent comanda:
 
+```bash
+coverage report
+```
