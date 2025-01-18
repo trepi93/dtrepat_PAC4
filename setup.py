@@ -1,4 +1,9 @@
+"""Setup configuration for the dtrepat_PAC4 package."""
+
 from setuptools import setup, find_packages
+
+with open("README.md", encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
     name="dtrepat_PAC4",
@@ -43,7 +48,7 @@ setup(
     author_email="dtrepat@uoc.edu",
     description="PAC 4 de l'assignatura de Programació per a la ciència"
                 "de dades de la UOC",
-    long_description=open("README.md").read(),
+    long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/trepi93/dtrepat_PAC4",
     classifiers=[
@@ -53,3 +58,4 @@ setup(
     ],
     python_requires='>=3.9',
 )
+
