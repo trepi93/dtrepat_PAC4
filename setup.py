@@ -1,3 +1,5 @@
+# pylint: skip-file
+
 """Setup configuration for the dtrepat_PAC4 package."""
 
 from setuptools import setup, find_packages
