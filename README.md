@@ -22,7 +22,7 @@ cd dtrepat_PAC4
 ```
 
 
-3. Instal·la les dependències necessaries (es recomana crear un virtual enviroment per fer-ho)
+3. Instal·la les dependències necessaries (es recomana crear un virtual enviroment per fer-ho). També ho pots fer seguint els passos especificats a [setup.py](#setuppy)
 
 (Opcional) Passos per crear un virtual enviroment 
 
