@@ -16,7 +16,7 @@ git clone https://github.com/trepi93/dtrepat_PAC4
 ```
 
 
-2. Navega fins al directori on s'ha descarregat el projecte (si l'has descarregat (sense usar git clone) descomprimeix-lo)
+2. Navega fins al directori on s'ha descarregat el projecte (si l'has descarregat (sense usar git clone) descomprimeix-lo usant unzip)
 ```bash
 cd dtrepat_PAC4
 ```
