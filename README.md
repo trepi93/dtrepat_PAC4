@@ -42,7 +42,7 @@ En qualsevol cas, instal·la les dependències fent:
 python3 -m pip install -r requirements.txt
 ```
 
-Un cop fet això, ja tindràs el projecte instal·lat
+Un cop fet això, ja tindràs el projecte instal·lat. En cas de que fallés la instal·lació dels paquets, assegura't de tenir la versió de python actualitzada (o almenys superior a la 3.9) i, si ho estàs executant en Windows, tenir tots els compiladors instal·lats. En cas contrari, actualitza la versió de python i instal·la o configura els compil·ladors (usant, per exemple Microsoft Visual Studio Build Tools).
 
 
 ## Estructura del Projecte
@@ -125,17 +125,18 @@ tests/test_ex4.py       70      1    99%
 tests/test_ex5.py       59      1    98%
 tests/test_main.py      27      1    96%
 ----------------------------------------
-TOTAL                  485     13    97
+TOTAL                  485     13    97%
 ```
 
 ## Estil de codi
-Tanmateix, també hem previst l'opció de veure el compliment dels estàndards d'estil PEP8 pels nostres fitxers. Per fer-ho cal executar la següent comanda:
+Tanmateix, també hem previst l'opció de veure el compliment dels estàndards d'estil PEP8 pels nostres fitxers. Per fer-ho cal executar la següent comanda per veure el resultat d'estil del codi font
 
 ```bash
 pylint src/*.py
 ```
-o 
+o la següent per veure el resultat d'estil dels tests
 
 ```bash
 pylint tests/*.py
 ```
+
