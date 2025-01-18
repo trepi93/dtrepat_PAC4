@@ -41,7 +41,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'dtrepat_pac4 = dtrepat_PAC4.main:main',
+            'dtrepat_pac4 = src.main:main',
         ],
     },
     author="David Trepat Segura",
