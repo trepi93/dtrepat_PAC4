@@ -71,6 +71,7 @@ El codi del projecte consta de la següent estructura:
 - **`license.txt`**: Conté la llicència del projecte
 - **`README.md`**: Es aquest document, i explica com instal·lar i executar el projecte i els seus tests
 - **`requirements.txt`**: Conté les dependències necessàries del projecte.
+- **`setup.py`**: Fitxer de configuració i distribució del paquet dtrepat_PAC4
 
 
 ## Com executar-lo
@@ -140,3 +141,20 @@ o la següent per veure el resultat d'estil dels tests
 pylint tests/*.py
 ```
 
+## setup.py
+Hem creat un fitxer setup.py que permet empaquetar i distribuir ràpidament el nostre paquet. Per fer-ho, un cop descarregat el nostre paquet, des del directori (i entorn virtual) si s'escau, el podem instal·lar usant la següent comanda:
+
+```bash
+pip install -e .
+```
+
+Un cop instal·lat tot ja podrem executar el nostre paquet tal com hem explicat en el punt *Com executar-lo*.
+A més, també hem previst que amb una sola comanda puguem veure totes les solucions de l'exercici (en aquest cas, no està previst poder fer una execució sel·lectiva, és a dir fins a un exercici concret). Es fa executant la comanda:
+
+```bash
+dtrepat_pac4
+```
+
+## Llicència
+
+Projecte llicenciat sota una MIT License. Veure license.txt per més informació.
